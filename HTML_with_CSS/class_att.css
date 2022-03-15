@@ -1,0 +1,11 @@
+h1.myclass {
+  font-size: 30px;
+  color: red;
+}
+p.myclass {
+  font-size: 20px;
+  color: blue;
+}
+body.myclass {
+  background-color: black;
+}
