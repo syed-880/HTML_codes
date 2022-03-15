@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style type="text/css">
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        thead {
+            background-color: red;
+        }
+
+        tbody {
+            background-color: blue;
+        }
+
+        tfoot {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <caption> Students Score list</caption>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th colspan="2" style="text-align: center;">Score</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>jack</td>
+                <td>moron</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>tom</td>
+                <td>jerk</td>
+                <td>80</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

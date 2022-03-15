@@ -1,0 +1,11 @@
+h1#myid {
+  font-size: 30px;
+  color: red;
+}
+p#myid {
+  font-size: 20px;
+  color: blue;
+}
+body#myid {
+  background-color: black;
+}
